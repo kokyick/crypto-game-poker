@@ -1,4 +1,3 @@
-# CRYPTOOASIS_VER_2
 
 ### Install server dependencies
 
