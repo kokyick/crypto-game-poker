@@ -53,7 +53,8 @@ const ConnectWallet = () => {
       }
 
       // Sign a test message
-      await signer.signMessage('This is a test');
+      const signature = await signer.signMessage('This is a test');
+      console.log("This is the signature: " + signature)
       return account;
     } catch (err) {
       console.error('Wallet connect/sign failed:', err);
